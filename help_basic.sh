@@ -54,3 +54,7 @@ echo -e "${BLUE}sudo chown ${CYAN}newowner file ${NO_COLOR}- set owner of new fi
 echo ""
 echo -e "${BLUE}grep ${CYAN}\"searchterm\" file ${NO_COLOR}- finds all the instances of serched term in file"
 echo ""
+cho -e "${BLUE}find ${CYAN}directory ${GREEN}-name file ${NO_COLOR}- finds all files or directories in directory"
+cho -e "${BLUE}find ${CYAN}directory ${GREEN}-name \"*.pattern\" ${NO_COLOR}- finds all files or directories in directory by pattern for example ${GREEN}*.txt${NO_COLOR}"
+cho -e "${BLUE}find ${CYAN}directory ${GREEN}-name \"*searchterm*\" ${NO_COLOR}-  finds all files or directories in directory that contains search term"
+echo ""

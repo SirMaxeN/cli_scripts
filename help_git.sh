@@ -61,7 +61,7 @@ echo ""
 echo -e "${BLUE}git ${CYAN}fetch ${NO_COLOR}- gets only data from remote for example about changes/branches. Fetch don't download changes" 
 echo -e "${BLUE}git ${CYAN}merge ${GREEN}remoteName/branchName${NO_COLOR}- you can also merge from remote branches"
 echo ""
-echo -e "${BLUE}git ${CYAN}push ${GREEN}[<remote>/<branch>]${NO_COLOR}- pushes changes to remote to specific branchName" 
+echo -e "${BLUE}git ${CYAN}push ${GREEN}[<remote> <branch>]${NO_COLOR}- pushes changes to remote to specific branchName" 
 echo -e "${BLUE}git ${CYAN}push ${GREEN}remoteName :branchName${NO_COLOR}- removes branchName by pushing empty branch to it" 
 echo -e "${BLUE}git ${CYAN}pull ${GREEN}[<remote>/<branch>]${NO_COLOR}- removes branchName by pushing empty branch to it" 
 git pull 
